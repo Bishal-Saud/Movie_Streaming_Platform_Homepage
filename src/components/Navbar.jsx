@@ -34,8 +34,8 @@ function Navbar() {
         </div>
         <div className="hidden md:flex">
           <NavList url={"/"} title={"Home"} />
-          <NavList url={"/filmes"} title={"Filmes"} />
-          <NavList url={"/series"} title={"Series"} />
+          <NavList url={"/"} title={"Filmes"} />
+          <NavList url={"/"} title={"Series"} />
         </div>
         <div className="hidden md:flex h-10 w-10 bg-yellow-300 rounded-full text-black items-end justify-center">
           <FaUser className="text-4xl" />

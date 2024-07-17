@@ -45,21 +45,21 @@ const Carousel = ({ movie }) => {
     : images[currentIndex];
 
   return (
-    <div className="w-full mx-auto -z-10 overflow-hidden rounded-xl absolute 2xl:h-screen">
+    <div className="w-full mx-auto -z-10 overflow-hidden rounded-xl absolute 2xl:h-screen  bg-[#000000a3] ">
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-75"
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 text-5xl  text-white p-2 rounded-full hover:bg-opacity-75"
       >
         ❮
       </button>
       <img
         src={displayImage}
         alt="carousel slide"
-        className="h-screen 2xl:h-fit w-full object-cover"
+        className="h-screen 2xl:h-fit w-full object-cover opacity-[70%]"
       />
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-75"
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 text-5xl  text-white p-2 rounded-full hover:bg-opacity-75"
       >
         ❯
       </button>

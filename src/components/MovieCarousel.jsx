@@ -51,11 +51,11 @@ const MovieCarousel = ({ movies, onMovieSelect }) => {
       {movies.map((movie) => (
         <div
           key={movie.id}
-          className=" movie-card  border-black h-[12rem] "
+          className="movie-card  border-black h-[14rem] w-10 outline-none  "
           onClick={() => onMovieSelect(movie)}
         >
           <img
-            className="h-[12rem] w-[10rem] ] border rounded-md"
+            className="h-[12rem] w-[10rem] cursor-pointer transform transition duration-300 hover:-translate-y-10  rounded-lg shadow-lg shadow-black "
             src={`https://image.tmdb.org/t/p/w200/${movie.poster_path}`}
             alt={movie.title}
           />

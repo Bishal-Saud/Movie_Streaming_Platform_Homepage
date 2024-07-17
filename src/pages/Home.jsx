@@ -35,7 +35,7 @@ function Home() {
     <AppLayout>
       <Carousel movie={selectedMovie} />
       <Search handleSearch={handleSearch} />
-      <div className="flex flex-wrap w-full gap-2  fixed top-[72%] ml-4">
+      <div className="flex flex-wrap w-full h-full gap-2  fixed top-[72%] ml-4">
         <MovieCarousel
           movies={filteredMovies}
           onMovieSelect={handleMovieSelect}
