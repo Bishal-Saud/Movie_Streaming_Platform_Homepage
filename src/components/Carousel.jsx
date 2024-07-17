@@ -6,17 +6,17 @@ const Carousel = ({ movie }) => {
   // console.log(movie, "movies");
   const staticData = {
     adult: false,
-    backdrop_path: "/wNAhuOZ3Zf84jCIlrcI6JhgmY5q.jpg",
+    backdrop_path: "/lA6KdSkCTxwzvqzPqxch997RabQ.jpg",
     genre_ids: [0, 1, 2],
     id: 786892,
     original_language: "en",
-    original_title: "Furiosa: A Mad Max Saga",
+    original_title: "Monkey Man",
     overview:
       "As the world fell, young Furiosa is snatched from the Green Place of Many Mothers and falls into the hands of a great Biker Horde led by the Warlord Dementus. Sweeping through the Wasteland they come across the Citadel presided over by The Immortan Joe. While the two Tyrants war for dominance, Furiosa must survive many trials as she puts together the means to find her way home.",
     popularity: 2145.649,
-    poster_path: "/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
+    poster_path: "/lA6KdSkCTxwzvqzPqxch997RabQ.jpg",
     release_date: "2024-05-22",
-    title: "Furiosa: A Mad Max Saga",
+    title: "Monkey Man",
     video: false,
     vote_average: 7.652,
     vote_count: 2136,
@@ -48,7 +48,7 @@ const Carousel = ({ movie }) => {
     <div className="w-full mx-auto -z-10 overflow-hidden rounded-xl absolute 2xl:h-screen  bg-[#000000a3] ">
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 text-5xl  text-white p-2 rounded-full hover:bg-opacity-75"
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 text-5xl  text-yellow-300 p-2 rounded-full hover:bg-opacity-75"
       >
         ❮
       </button>
@@ -59,7 +59,7 @@ const Carousel = ({ movie }) => {
       />
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 text-5xl  text-white p-2 rounded-full hover:bg-opacity-75"
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 text-5xl  text-yellow-300 p-2 rounded-full hover:bg-opacity-75"
       >
         ❯
       </button>

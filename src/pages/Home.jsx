@@ -16,9 +16,9 @@ function Home() {
 
   useEffect(() => {
     dispatch(fetchMovies());
-    console.log(movies);
   }, [dispatch]);
 
+  console.log(selectedMovie);
   const handleMovieSelect = (movie) => {
     dispatch(selectMovie(movie));
   };

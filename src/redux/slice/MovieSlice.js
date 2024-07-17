@@ -9,7 +9,7 @@ export const fetchMovies = createAsyncThunk("movies/fetchMovies", async () => {
 
   return response.data.results;
 });
-fetchMovies();
+// fetchMovies();/
 const moviesSlice = createSlice({
   name: "movies",
   initialState: {

@@ -5,8 +5,8 @@ function AppLayout({ children }) {
   return (
     <div className="layout">
       <Navbar />
-
       <main className="">{children}</main>
+      {/*  Footer */}
     </div>
   );
 }
